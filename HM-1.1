@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script>
+        let admin, name;
+        name = 'Василий';
+        admin = name;
+        alert(admin);
+    </script>
+    <script>
+
+        let userC = +prompt('Введите значение в Цельсиях');
+
+        while (isNaN(userC)) {
+            userC = +prompt('Введите значение в Цельсиях');
+        }
+
+        let answerF = ((9 / 5) * userC + 32);
+        alert('После перевода температурa составила ' + answerF.toFixed(2) + ' °F');
+
+    </script>
+    <script>
+        let a;
+        a = 1000 + '108';
+        alert(a);
+        //1000108;
+    </script>
+
+</body>
+
+</html>
